@@ -95,11 +95,9 @@ html {
     Specify that div elements should have padding and border included in the element's total width and height */
     box-sizing: border-box;
 }
-
 body {
     background: #fff;
 }
-
 article,
 aside,
 details,
@@ -112,45 +110,37 @@ nav,
 section {
     display: block;
 }
-
 ol,
 ul {
     list-style: none;
 }
-
 table {
     border-collapse: separate;
     border-spacing: 0;
 }
-
 caption,
 th,
 td {
     font-weight: normal;
     text-align: left;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
     content: "";
 }
-
 blockquote,
 q {
     quotes: "" "";
 }
-
 a:focus {
     outline: 0;
 }
-
 a:hover,
 a:active {
     outline: 0;
 }
-
 a img {
     border: 0;
 }
@@ -370,3 +360,68 @@ input[type="submit"] {
     text-shadow: none;
     transition: background 0.5s ease;
 }
+.navigation .nav-links a:hover,
+.bttn:hover,
+button,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: #d40305;
+    color: #ffffff !important;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    padding: 0;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+    border: 0;
+    padding: 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+    color: #666;
+    border: 1px solid #ccc;
+    height: 36px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+    border: 1px solid #AAA;
+}
+.searchform input[type="text"]:focus {
+    border: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+    padding: 3px 6px;
+}
+textarea {
+    overflow: auto;
+    /* Removes default vertical scrollbar in IE6/7/8/9 */
+    padding-left: 3px;
+    vertical-align: top;
+    /* Improves readability and alignment in all browsers */
+    color: #666;
+    border: 1px solid #ccc;
+    height: 160px;
+    max-width: 100%;
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+5.0 Links
+--------------------------------------------------------------*/
+
