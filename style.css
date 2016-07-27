@@ -3,7 +3,7 @@ Theme Name: LoraLine
 Theme URI: http://lauranovak.me
 Author: LauraNovak
 Author URI: http://lauranovak.me
-Description: LoraLine is a modern style multi purpose theme. It is developed starting from the FoodHunt theme of themegrill.
+Description: LoraLine is a modern style multi purpose theme.
 Version: 1.0
 License: GNU General Public License, version 3 (GPLv3)
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -11,53 +11,11 @@ Text Domain: loraline
 Tags: light, one-column, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images, sticky-post, translation-ready, threaded-comments, theme-options
 
 This theme, like WordPress, is licensed under the GPL.
+LoraLine is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
 */
 
 /*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-#1.0 - Reset
-#2.0 - Typography
-#3.0 - Elements
-#4.0 - Forms
-#5.0 - Links
-#6.0 - Accessibility
-#7.0 - Alignments
-#8.0 - Clearings
-#9.0 - Widgets
-#10.0 - Posts and pages
-#11.0 - Asides
-#12.0 - Comments
-#13.0 - Infinite scroll
-#14.0 - Media
-#15.0 - Sidebar css
-#16.0 - Responsive grid for pages
-#17.0 - Common Css
-#18.0 - slider css
-#19.0- Top header css
-	##19.1 Header Ticker CSS
-	#19.2 - Social icon css
-	#19.3 - Bottom Header CSS
-	#19.4 - Menu css
-#20.0 - About us css
-#21.0 - Services CSS
-#22.0 - CALL TO ACTION css
-#23.0 - Chef CSS
-#24.0 - Gallery CSS
-#25.0 - Contact css
-#26.0 - blog page layout CSS
-#27.0 - secondary CSS
-#28.0 - 404
- page layout CSS
-#29.0 - search page layout CSS
-#30.0 - Inner page layout CSS
-#31.0 - footer css
-
-* ----------------------------------------------------------------------------
- */
-
-/*--------------------------------------------------------------
-1.0 Reset
+Reset
 --------------------------------------------------------------*/
 
 html, body, div, span, applet, object, iframe,
@@ -108,7 +66,7 @@ header,
 main,
 nav,
 section {
-    display: block;
+    display: block; /*Add the correct display in IE 9*/
 }
 ol,
 ul {
@@ -146,7 +104,7 @@ a img {
 }
 
 /*--------------------------------------------------------------
-2.0 Typography
+Typography
 --------------------------------------------------------------*/
 
 body,
@@ -271,7 +229,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-3.0 Elements
+Elements
 --------------------------------------------------------------*/
 
 hr {
@@ -326,7 +284,7 @@ td {
     padding: 5px 10px;
 }
 /*--------------------------------------------------------------
-4.0 Forms
+Forms
 --------------------------------------------------------------*/
 
 button,
@@ -422,6 +380,6 @@ textarea {
 }
 
 /*--------------------------------------------------------------
-5.0 Links
+Links
 --------------------------------------------------------------*/
 
